@@ -1,36 +1,27 @@
 /******************************************************************************
 
 Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
 #include <stdio.h>
-#include <stdlib.h>
 
-int main()
-{
-    int counter, num;
-    counter=1;
-    printf("INPUT YOUR NUMBER: ");
-    scanf("%d", &num);
-
-
-    for (counter =1; counter<=num;counter++){
-
-    if (counter%2) printf("%d\n", counter);//3 5 7 9 11
-    }
-    puts ("Second loop");
-    counter=1;
-    while( counter<=num){
-
-    if(counter%5==0) printf("%d\n", counter);//3 5 7 9
-        counter++;
-    }
-
-    printf("This is the last value %d", counter);
-
+int main(){
+    
+    int x; //declearation
+    x = 123; //initialization
+    int y = 321; //declearation and initialization
+    
+    int age = 21; //integer
+    float gpa = 2.03; //float point number
+    char grade = 'C'; //single character
+    char name[] = "Bro"; //array of character
+    
+    printf("Hello %s \n", name);
+    printf("You are %d years old\n", age);
+    printf("Your average grade is %c\n", grade);
+    printf("Your GPA is %f\n", gpa);
     return 0;
 }
-
