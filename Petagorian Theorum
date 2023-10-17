@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    double A, B, C;
+    
+    printf("Enter the side A and B: ");
+    scanf("%lf", &A);
+    scanf("%lf", &B);
+    
+    C = sqrt(pow(A,2)+pow(B,2));
+    printf("The longest side will be %lf", C);
+
+    return 0;
+}
